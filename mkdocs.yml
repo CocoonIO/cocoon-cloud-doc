@@ -1,8 +1,10 @@
-site_name: Cocoon Documentation
+site_name: Cocoon
 theme: mkdocs
-site_url: http://doc.cocoon.io
-repo_url:
+site_url: https://www.cocoon.io
+repo_url: https://github.com/CocoonIO/cocoon-cloud-doc
 copyright: (c) 2015 Ludei Inc.
+site_description: Cocoon.io Cloud service documentation
+site_author: Ludei Inc.
 site_favicon: img/favicon.ico
 extra_css:
     - custom.css
@@ -10,7 +12,12 @@ markdown_extensions:
     - smarty
     - sane_lists
 pages:
-- Home: 'index.md'
+- Home:
+    - 'Overview': 'index.md'
+    - 'Getting started': 'getting-started.md'
+    - 'Migration guide': 'migration-guide.md'
+    - 'FAQ': 'faq.md'
+    - 'Contact us': 'contact-us.md'
 - User guide:
     - 'Overview': 'user-guide/index.md'
     - 'User profile': 'user-guide/user-profile.md'
@@ -34,3 +41,7 @@ pages:
     - 'Canvas+ internal webview': 'canvas-plus/internal-webview.md'
     - 'Screencanvas': 'canvas-plus/screencanvas.md'
     - 'Memory management': 'canvas-plus/memory-management.md'
+# - Frameworks:
+#     - 'Overview': 'frameworks/index.md'
+#     - 'Apps': 'frameworks/apps.md'
+#     - 'Games': 'frameworks/games.md'
