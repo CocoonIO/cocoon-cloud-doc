@@ -1,0 +1,36 @@
+site_name: Cocoon Documentation
+theme: mkdocs
+site_url: http://doc.cocoon.io
+repo_url:
+copyright: (c) 2015 Ludei Inc.
+site_favicon: img/favicon.ico
+extra_css:
+    - custom.css
+markdown_extensions:
+    - smarty
+    - sane_lists
+pages:
+- Home: 'index.md'
+- User guide:
+    - 'Overview': 'user-guide/index.md'
+    - 'User profile': 'user-guide/user-profile.md'
+    - 'Project creation': 'user-guide/project-creation.md'
+    - 'Project configuration': 'user-guide/project-configuration.md'
+    - 'Platforms': 'user-guide/platforms.md'
+    - 'Developer App': 'user-guide/developer-app.md'
+    - 'Icons and Splashes': 'user-guide/icons-and-splashes.md'
+    - 'Encryption': 'user-guide/encryption.md'
+- Plugins:
+    - 'Overview': 'plugins/index.md'
+    - 'Cocoon Plugins': 'plugins/cocoon-plugins.md'
+    - 'Custom Plugins': 'plugins/custom-plugins.md'
+- Webview Engines:
+    - 'Overview': 'webview-engines/index.md'
+    - 'Canvas+': 'webview-engines/canvas-plus.md'
+    - 'Webview+': 'webview-engines/webview-plus.md'
+    - 'System Webview': 'webview-engines/system-webview.md'
+- Canvas+ Features:
+    - 'Overview': 'canvas-plus/index.md'
+    - 'Canvas+ internal webview': 'canvas-plus/internal-webview.md'
+    - 'Screencanvas': 'canvas-plus/screencanvas.md'
+    - 'Memory management': 'canvas-plus/memory-management.md'
