@@ -1,4 +1,4 @@
-Cocoon public documentation repository
+Cocoon public documentation repository
 ======================================
 Ludei's public documentation for cocooon.io service. Available at http://doc.cocoon.io
 
