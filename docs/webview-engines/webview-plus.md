@@ -18,6 +18,7 @@ The Webview+ for Android is a uniform webview engine on any Android 4.x device b
 
 * Performance is not as good as in Canvas+, specially noticeable at startup
 * In Android it takes around 20MB to include this webview engine.
+* Only supports Cordova <content src="index.html"/> as content origin for iOS. The Content URL setting must point to index.html in your settings.
 
 ### When to use it
 
