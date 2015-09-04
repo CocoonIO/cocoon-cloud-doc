@@ -9,15 +9,15 @@ This is the easiest way of adding icons and splashes to your project.
 
 ### Generating icons
 
-To generate the icons, it is just neccesary to drag and drop a PNG image and the cloud will generate all the resources your project requires for all the platforms. The recomended size is 1024x1024, so the image won't lose quality.
+To generate the icons, it is just necessary to drag and drop a PNG image and the cloud will generate all the resources your project requires for all the platforms. The recommended size is 1024x1024, so the image won't lose quality.
 
-![[class='center'] Adding icons](img/icons-wizard.png "Addind icons")
+![[class='center'] Adding icons](img/icons-wizard.png "Adding icons")
 
 If you don't want to use this system, you can always add the icons manually editing the config file using the editor.
 
 ### Generating Splashes
 
-To generate the splashes for your project, just drag and drop the resourses in the dragging and dropping area of the splash menu in the project settings. In is not necessary to install additional plugins.
+To generate the splashes for your project, just drag and drop the resources in the dragging and dropping area of the splash menu in the project settings. In is not necessary to install additional plugins.
 
 Once the resources are loaded at the cloud, it is possible to customize them.
 
@@ -28,6 +28,8 @@ You can upload an icon and place it in the center with a fixed background color 
 ![[class='center'] Device simulator](img/device-simulator.png "Device simulator")
 
 Remember to save or discard the changes before compiling.
+
+**Note**: In iOS apps, the user splash will also be used as the [Launch image](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/LaunchImages.html), this is something mandatory for any iOS app. In case you want to have only Launch Image and no user splash, you can configure an splash and set the delay to 0.
 
 ## Manual configuration
 
