@@ -7,6 +7,10 @@ The main difference is that Cocoon.io is based on Cordova. But, why is this so i
 
 In this guide you will find a fast and easy to follow summary of all the elements you must take into account to adapt your project and why these changes are necessary.
 
+## Before starting
+
+Every CocoonJS user must create a new account in the cocoon.io service in order to use it as the accounts are not linked in any way. One user registered in the old cloud doesn't have an automatically created account in the new cloud. You can choose the same username as in the previous cloud or use whichever you wish.
+
 ## The project structure
 
 If you have ever created a project using Cordova, you might be familiar with this structure:  
