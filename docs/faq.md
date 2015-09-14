@@ -47,13 +47,13 @@ At the moment Cocoon supports Android and iOS. We're about to add more platforms
 Use the whitelist plugin. If you let the platform to create the default config.xml, we will install it for you.
 
 ### Do I need the whitelist plugin in canvas+?
-No, by default Canvas+ doens't limit access to any external resources.
+No, by default Canvas+ doesn't limit access to any external resources.
 
 ### What about the splash screen in Canvas+? Can I remove it?
-No, you can't. But don't panic, it will be possible really soon.
+Yes, It is now possible to remove the Canvas+ splash screen, just send an email to sales@cocoon.io. This process is being automated so expect the payment be fully integrated in cocoon.io soon.
 
 ### What is a testcase? Why did you ask me for one?
-A testcase is the minimum sample of code required to reproduce an issue or bug. Sometimes, "less is more". The smaller the tescase is, the easier it will be for us to detect where the problem is.
+A testcase is the minimum sample of code required to reproduce an issue or bug. Sometimes, "less is more". The smaller the testcase is, the easier it will be for us to detect where the problem is.
 
 ### Do you have something extra to tell us?
 We plan to support not only cordova's target OSs but other platforms like desktop, tv and others.
