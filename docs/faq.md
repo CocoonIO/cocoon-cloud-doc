@@ -50,7 +50,7 @@ Use the whitelist plugin. If you let the platform to create the default config.x
 No, by default Canvas+ doesn't limit access to any external resources.
 
 ### What about the splash screen in Canvas+? Can I remove it?
-Yes, It is now possible to remove the Canvas+ splash screen, just send an email to sales@cocoon.io. This process is being automated so expect the payment be fully integrated in cocoon.io soon.
+Yes, It is now possible to remove the Canvas+ splash screen, just send an email to sales@cocoon.io. This process is being automated so expect the payment to be fully integrated in cocoon.io soon.
 
 ### What is a testcase? Why did you ask me for one?
 A testcase is the minimum sample of code required to reproduce an issue or bug. Sometimes, "less is more". The smaller the testcase is, the easier it will be for us to detect where the problem is.
