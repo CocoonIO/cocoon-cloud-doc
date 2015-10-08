@@ -21,6 +21,8 @@ As soon as the app is launched, there are two options to load your files for tes
 
 The first option to load your source code on the developer app is to use an external URL. This URL can point to an index.html file or directly to a zip file that will be downloaded and uncompressed. In any case, it is necessary that the index.html file is in the root of the zip of the external resource.
 
+The Cordova plugins and the cordova.js scripts are already bundled in the Developer App so you don't really need to have them there but you need to have the cordova.js script tag reference somewhere in your index.html.
+
 ![[class='center'] Developer app external url](img/developer_app_urls.png "Developer app - external URL")
 
 Once the url is written, or loaded using a QR, all the possible webview engines in which to run your source code will appear at the bottom of the screen.
@@ -30,6 +32,8 @@ Just clicking one of them, the project will be launched using that specific webv
 ### Documents stored in the device
 
 It is possible also to run a zip file placed inside the device. From the Developer App's documents tab, you will have access to the Application Documents on iOS devices. On Android, it will be possible to load the zip file from the external SD card.
+
+The zip must contain an index.html with relative references to all the resources you need in the zip file.
 
 ![[class='center'] Developer app documents](img/developer_app_doc.png "Developer app - documents")
 

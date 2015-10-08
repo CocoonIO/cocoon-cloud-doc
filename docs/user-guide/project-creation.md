@@ -33,11 +33,11 @@ It is possible to upload to the cloud compiler the content of the **www** folder
 
 ![[class='left'] Recommended content](img/project-content.png "Recommended content")
 
-This is the structure a project must have. Unlikely a normal project for Cordova, the folders **platforms**, **hooks** and **plugins** are not necessary but it is recommendable to add the **res** folder containing all the icons and splashes the project requires.
-
-About the plugins, they will be added during the compilation. It is possible to write the reference in the config.xml or to select them from the list in the [project configuration](/user-guide/project-configuration) as long as they are available from Cordova public registry.
+This is the structure a project must have. Unlikely a normal project for Cordova, the folders **platforms**, **hooks** and **plugins** are not necessary but it is recommendable to add the **res** folder containing all the icons and splashes the project requires. We don't use the **platforms** folder so don't add it to the zip file as it will only waste your bandwidth when uploading. If you have a plugins folder we install the plugins inside it. Uploading a config.xml file to the cloud will update the project's configuration with the config.xml configuration.
 
 To create the project, just drag and drop the compressed file on an empty project card and it will be created automatically.
+
+**Important**: Remember that when uploading a config.xml file to the cloud we will update the project's configuration with the config.xml configuration. You may want to do that the first time you create the project so we read your configuration from there but once your project has been created, we recommend to upload just the source code (**www** and **res** optionally) and use the project configuration UI to configure the project.
 
 ### Guided creation
 
