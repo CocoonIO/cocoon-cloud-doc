@@ -20,6 +20,25 @@ The Webview+ for Android is a uniform webview engine on any Android 4.x device b
 * In Android it takes around 20MB to include this webview engine.
 * Only supports Cordova <content src="index.html"/> as content origin for iOS. The Content URL setting must point to index.html in your settings.
 
+### Debugging
+
+You can debug your applications running in the Webview+ following steps:
+
+#### Android
+
+- Follow the instructions to enable remote debugging in your Android device: https://developer.chrome.com/devtools/docs/remote-debugging
+- Open your the Developer App and launch your app using the Webview+
+- Open a Chrome browser and go to chrome://inspect/
+- Click on the app you want to inspect and the Chrome Developer tools should be opened
+
+#### iOS
+
+- Connect your iOS device to your Mac computer using the USB cable
+- Go to Settings -> Safari -> Advanced and enable the "Web Inspector"
+- Open you Developer App and launch your app using the Webview+
+- Open A Safari browser and go to the "Develop" menu. You should see the connected device there
+- Select the application and the Web Inspector should be opened
+
 ### When to use it
 
 For application that target wide range of devices.
