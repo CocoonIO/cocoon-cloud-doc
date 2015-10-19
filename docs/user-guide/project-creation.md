@@ -21,7 +21,7 @@ If you have a website and it is adapted for mobile devices, you can introduce he
 
 ### From GitHub
 
-A GitHub project that has a Cordova structure will be valid for a compilation at the cloud. It is compulsory to have at least the **www** folder and the **config.xml** file. In order to have access to this option, it is mandatory that the code you want to upload is available from a public repository.
+A GitHub project that has a Cordova structure (detailed [below](/user-guide/project-creation#from-zip)) will be valid for a compilation at the cloud. It is compulsory to have at least the **www** folder and the **config.xml** file. In order to have access to this option, it is mandatory that the code you want to upload is available from a public repository.
 
 ### From ZIP
 
