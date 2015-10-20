@@ -31,7 +31,7 @@ When a new project is created, it is possible to include an existing config.xml 
 
 ### Tags
 
-All tags supported by Cordova are supported by Cocoon too. For more information about this tags, you can visit this <a href=https://cordova.apache.org/docs/en/edge/config_ref_index.md.html#The%20config.xml%20File_core_configuration_elements target="_blank">section</a> in Cordova documentation.
+All tags supported by Cordova are supported by Cocoon too. For more information about this tags, you can visit this <a href=https://cordova.apache.org/docs/en/edge/config_ref/index.html#link-1 target="_blank">section</a> in Cordova documentation.
 
 In the same way, you can configure in the config.xml file all the [icons and Splashes](/user-guide/icons-and-splashes) your project needs.
 
