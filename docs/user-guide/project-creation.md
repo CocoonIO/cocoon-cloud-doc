@@ -89,7 +89,7 @@ Remember that if the new zip file contains a config.xml, the previous configurat
 
 ## Compile a project
 
-To trigger a compilation it is necessary to click the "build" button. If there is a black icon on a project card, it means that project has never been compiled. Inc ase of doubt, a tooltip will appear hovering each platform icon.
+To trigger a compilation it is necessary to click the "build" button. If there is a black icon on a project card, it means that project has never been compiled. In case of doubt, a tooltip will appear hovering each platform icon.
 
 If a compilation is in course, the icons of the platforms will flicker from grey to light blue.
 
