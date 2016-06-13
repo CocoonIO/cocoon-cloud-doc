@@ -123,7 +123,7 @@ In addition, it is important to mention that this plugin works different on iOS 
 
 Otherwise, the splash screen will be stuck and always visible. On Android devices, the plugin will work fine even if this code is not present.
 
-The configuration of the splashes is done in the config.xml file and all the attributes mentioned in the previous section are avaliable, including the src attribute which, as in the icons configuration, it is compulsory.
+The configuration of the splashes is done in the config.xml file and all the attributes mentioned in the previous section are available, including the src attribute which, as in the icons configuration, it is compulsory.
 
 The following example shows how to create the splash screen for an Android project:
 

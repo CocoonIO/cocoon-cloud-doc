@@ -51,7 +51,7 @@ All the options placed on this section will be available for any webview engine 
 
 ### Debug settings
 
-This section allows the user to show/hide de debugging console and customize its options (Possition when the project is launched and FPS type to show when the project is running).
+This section allows the user to show/hide de debugging console and customize its options (Position when the project is launched and FPS type to show when the project is running).
 
 It is important to mention that the FPS text shown when the project is running works as a button that opens the debugging console. Enabling the debug options will allow the user to visit this console in order to relaunch the project or see the console log reported by the developer app.
 

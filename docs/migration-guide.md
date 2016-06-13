@@ -117,7 +117,7 @@ Cocoon Canvas+ are multiplatform Javascript utilities that work in Canvas+. Thes
 
 ## Canvas+ & Webview
 
-It is still possible to render a transparent Webview on top of the Canvas+ OpenGL ES rendering context in order to have DOM access inside Canvas+. However, even if we said it was no longer required to add additonal files to your code in order to use Canvas+ special features, as this internal webview is not the main webview engine where the code will be executed, it is neccesary to add manually several files to the content that will be displayed in internal webview.
+It is still possible to render a transparent Webview on top of the Canvas+ OpenGL ES rendering context in order to have DOM access inside Canvas+. However, even if we said it was no longer required to add additonal files to your code in order to use Canvas+ special features, as this internal webview is not the main webview engine where the code will be executed, it is necessary to add manually several files to the content that will be displayed in internal webview.
 
 You can read more about these files and why they have to be added manually in [Canvas+ internal webview section](/webview-engines/canvas-plus).
 

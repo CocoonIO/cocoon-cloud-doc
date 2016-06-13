@@ -57,7 +57,7 @@ Cocoon.App.loadInTheWebView("WV.html");
 
 ## Required files
 
-Unlike the previous cloud, as Cordova only injects automatically the required clobbers in the main webview engine, it is neccesary to add manually the following files to the content that will be sent and displayed in Canvas+ internal Webview:
+Unlike the previous cloud, as Cordova only injects automatically the required clobbers in the main webview engine, it is necessary to add manually the following files to the content that will be sent and displayed in Canvas+ internal Webview:
 
 * <a href="https://github.com/ludei/cocoon-common/blob/master/src/js/cocoon.js" target="_blank">cocoon.js</a>
 * <a href="https://github.com/CocoonIO/cocoon-canvasplus/blob/master/dist/js/cocoon_canvasplus.js" target="_blank">cocoon_canvasplus.js</a>
