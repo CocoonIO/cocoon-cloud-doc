@@ -59,7 +59,7 @@ This is the fastest way to have a Cocoon project compiled and configured in orde
 
 In most of the cases, unless otherwise stated, we don't belong the code. The author of each demo is referred in the project configuration, and so does the repository where it is the original source code.
 
-Feel free to test them as many times as you want. Currently, we have three different templates (Phaser, AngularJS and Polymer), but we expect to increase this number in the short term.
+Feel free to test them as many times as you want. We have different templates (Phaser, AngularJS and Polymer among others) and we expect to keep adding more in the short term.
 
 **Choose webview**
 
