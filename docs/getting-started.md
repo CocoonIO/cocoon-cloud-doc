@@ -35,7 +35,7 @@ To learn more about the cloud compiler and its features, you can visit the [clou
 
 A platform is a group of technologies that are used as a base upon which other applications, processes or technologies are developed.
 
-Currently the supported platforms are iOS and Android for mobile devices, but it is in our plans to increase this list along time to include, for example, wearables and more OS.
+Currently the supported platforms are iOS and Android for mobile devices, but it is in our plans to increase this list along time to include, for example, wearables and more OS, as many plugins already support other OS.
 
 To learn more about how to choose a platform, you can visit the [platforms](/user-guide/platforms) section.
 
